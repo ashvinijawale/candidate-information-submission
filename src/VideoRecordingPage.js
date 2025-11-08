@@ -170,7 +170,7 @@ const VideoRecordingPage = () => {
         )}
 
         <button className="btn submit" onClick={handleSubmit}>
-          Submit
+          Proceed
         </button>
       </div>
 
