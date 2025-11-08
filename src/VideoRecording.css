@@ -1,0 +1,115 @@
+.video-page {
+  max-width: 600px;
+  width: 100%;
+  background: #ffffff;
+  margin: 60px auto;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.instructions {
+  background-color: #fffaf3;
+  border-left: 4px solid #ff8c00;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.instructions h3 {
+  margin: 0;
+  color: #ff8c00;
+}
+
+.instructions ul {
+  margin-left: 20px;
+  color: #333;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.video-preview,
+.recorded-video {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fdf8f3;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn.start {
+  background-color: #ff8c00;
+  color: white;
+}
+
+.btn.start:hover {
+  background-color: #ff7400;
+}
+
+.btn.stop {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn.stop:hover {
+  background-color: #c0392b;
+}
+
+.btn.submit {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.btn.submit:hover {
+  background-color: #27ae60;
+}
+
+.timer {
+  font-weight: bold;
+  font-size: 16px;
+  color: #ff8c00;
+  background-color: #fff4e6;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #ffb347;
+  display: inline-block;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 30px; 
+}
+
+@media screen and (max-width: 600px) {
+  .video-page {
+    padding: 30px 20px;
+  }
+}
